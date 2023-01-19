@@ -40,7 +40,7 @@ function fillMap() {
   mapQA.set("Where did Lionel Messi get married?", "Rosario");
   mapQA.set("Where is Bangladesh located?", "Asia");
   mapQA.set("Which year did Japan attack Pearl Harbor?", "1941");
-  mapQA.set("How many FIFA World Championships has won France?", "2");
+  mapQA.set("How many FIFA World Championships has France won ?", "2");
   mapQA.set(
     "Which is the name of the first nuclear powered submarine?",
     "USS. Nautilus"
@@ -78,13 +78,15 @@ function getQuestions(state) {
     document.getElementById("question").textContent = mapArray[state][0];
     fillOptions(state);
   } else {
-    console.log("Good job!. your points: " + points);
+    console.log("Good job!. Your final score: " + points);
     console.log("Final answers: ");
+
+    //So.. working with arrays then..
     answers.forEach((element, index) => {
       console.log(`${index} - ${element}`);
     });
 
-    //there is nothing to find or filter in my prototype, but here you are, an array.includes() use
+    //There is nothing to find or filter in my prototype, but here you are, an array.includes() use
     try {
       console.log(answers.includes("There arent enough words for that"));
     } catch (error) {
