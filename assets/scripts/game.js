@@ -4,7 +4,7 @@ const chk1 = document.getElementById("op1");
 const chk2 = document.getElementById("op2");
 const chk3 = document.getElementById("op3");
 let answers = [];
-let mapArray = [];
+let mapArray = []; // Yes, i know that i could just use Array[][], but i like Map, so i used both here
 
 // I dont really like using prompt. its a requirement...
 const playerName = prompt("Hi, whats your name?");
