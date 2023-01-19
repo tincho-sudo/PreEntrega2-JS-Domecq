@@ -70,7 +70,7 @@ function fillMap() {
 }
 
 //
-//  Sets the question to the first question of the hashmap
+//  Sets the question to the first question of the hashmap, then sets the question to the one located at index = state from our questions
 //
 function getQuestions(state) {
   console.log(state);
