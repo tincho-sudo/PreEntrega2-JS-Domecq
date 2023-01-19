@@ -20,7 +20,7 @@ getQuestions(state);
 console.log(audio);
 
 //
-// Get player data (from prompt as now, from cache also in the near future), check for possible hijacking chars
+// Get player data (from prompt as of now, from cache also in the near future), check for possible hijacking chars
 //
 function getPlayerData() {
   if (
