@@ -51,7 +51,7 @@ function fillMap() {
     "Which year was that Germany surrendered to the Allies during 2nd World War?",
     "1945"
   );
-  mapQA.set("Who did write 'The Lord of the Rigns'?", "J.R.R. Tolkien");
+  mapQA.set("Who did write 'The Lord of the Rings'?", "J.R.R. Tolkien");
   mapQA.set("Which year did USA become independant? ", "1776");
   mapQA.set(
     "How many Formula 1 World Championships did Juan Manuel Fangio win?",
@@ -84,6 +84,8 @@ function getQuestions(state) {
     //So.. working with arrays then..
     answers.forEach((element, index) => {
       console.log(`${index} - ${element}`);
+    // and thats the 2nd way to print any variable, just in case that I did miss
+    // any output requirement
     });
 
     //There is nothing to find or filter in my prototype, but here you are, an array.includes() use
